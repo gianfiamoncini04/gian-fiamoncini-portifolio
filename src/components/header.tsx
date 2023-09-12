@@ -2,7 +2,7 @@ export default function Header() {
    return (
             <>
               <section>
-                  <p>NO HEAasdasdasdEDer</p>
+                  <p>TE AMO AMORZINHO</p>
               </section>
             </>
        )

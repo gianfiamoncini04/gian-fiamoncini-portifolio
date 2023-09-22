@@ -3,9 +3,9 @@ import Header from './components/header'
 export default function App() {
   return (
     <>
-      <section>
+      <main className="font-pop">
         <Header />
-      </section>
+      </main>
     </>
   )
 }

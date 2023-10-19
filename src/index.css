@@ -2,11 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face { 
-    font-family: "Poppins";
-    src: url('/font/Poppins-Regular.ttf') format('truetype');
+@font-face {
+    font-family: "Adobe";
+    src: url("/font/AdobeCleanRegular.otf") format("opentype");
 }
 
 body {
-    font-family: "Poppins";
+    font-family: "Adobe";
 }

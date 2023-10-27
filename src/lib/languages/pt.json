@@ -1,0 +1,10 @@
+{
+    "title" : "Portifolio em desenvolvimento",
+    "constants" : {
+        "lang-toogle-label-pt": "Português",
+        "lang-toogle-label-en": "Inglês",
+        "mode-toogle-label-light": "Claro",
+        "mode-toogle-label-dark": "Escuro",
+        "mode-toogle-label-system": "Sistema"
+    }
+}

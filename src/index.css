@@ -3,10 +3,28 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: "Adobe";
-    src: url("/font/AdobeCleanRegular.otf") format("opentype");
+    font-family: "SFMono-Regular";
+    src: url("/font/SFMono-Regular.otf") format("opentype");
 }
 
 body {
-    font-family: "Adobe";
+    font-family: "SFMono-Regular";
 }
+
+/* @font-face {
+    font-family: "Adobe";
+    src: url("/font/AdobeCleanRegular.otf") format("opentype");
+} */
+
+/* body {
+    font-family: "Adobe";
+} */
+
+/* @font-face {
+    font-family: "Inter";
+    src: url("/font/Inter-Regular.ttf") format("truetype");
+}
+
+body {
+    font-family: "Inter";
+} */

@@ -39,8 +39,7 @@ export function ModeToggle() {
 				</DropdownMenuItem>
 				<DropdownMenuItem
 					onClick={() => setTheme("system")}
-					className={`cursor-pointer
-					${theme === "system" ? "bg-[#1e293b]" : " "}`}>
+					className={`cursor-pointer`}>
 					<Settings className="h-[1rem] w-[1rem]" />&nbsp;&nbsp;{t('constants.mode-toogle-label-system')}
 				</DropdownMenuItem>
 			</DropdownMenuContent>

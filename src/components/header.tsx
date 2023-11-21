@@ -3,7 +3,6 @@ import { ModeToggle } from "@/constants/mode-toggle"
 import { LangToggle } from "@/constants/lang-toggle"
 import { Button } from "@/components/ui/button";
 import { useTranslation } from 'react-i18next'
-import Typed from 'react-typed'
 
 export default function Header() {
 	const {t} = useTranslation('common')
@@ -20,7 +19,7 @@ export default function Header() {
 					</a>
 				</p>
 				<h1 className="text-7xl drop-shadow-[0_0_10px_#00000070] dark:drop-shadow-[0_0_10px_#FFFFFF60] dark:text-white font-bold">
-					<Typed strings={[`${t('title')}`]} typeSpeed={120} backSpeed={140} loop />
+					{t('title')}
 				</h1>
 				<svg
 					className="fill-black dark:fill-white text-6xl motion-safe:animate-spin drop-shadow-lg"

@@ -1,5 +1,7 @@
 {
     "title" : "Portifolio em desenvolvimento",
+    "cv" : "Currículo",
+    "cvfile" : "Currículo-Gian-Carlo-Fiamoncini",
     "constants" : {
         "lang-toogle-label-pt": "Português",
         "lang-toogle-label-en": "Inglês",

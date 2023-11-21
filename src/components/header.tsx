@@ -20,9 +20,7 @@ export default function Header() {
 					</a>
 				</p>
 				<h1 className="text-7xl drop-shadow-[0_0_10px_#00000070] dark:drop-shadow-[0_0_10px_#FFFFFF60] dark:text-white font-bold">
-					<Typed  strings={[`${t('title')}`]}
-                    typeSpeed={120}
-					backSpeed={140} loop />
+					<Typed strings={[`${t('title')}`]} typeSpeed={120} backSpeed={140} loop />
 				</h1>
 				<svg
 					className="fill-black dark:fill-white text-6xl motion-safe:animate-spin drop-shadow-lg"

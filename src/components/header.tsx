@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { useTranslation } from 'react-i18next'
 import Typed from 'react-typed';
 
+
 export default function Header() {
 	const {t} = useTranslation('common')
 

@@ -1,5 +1,5 @@
 {
-    "title" : "Portifolio em desenvolvimento",
+    "title" : "em desenvolvimento",
     "cv" : "Currículo",
     "cvfile" : "Currículo-Gian-Carlo-Fiamoncini",
     "constants" : {
@@ -8,5 +8,29 @@
         "mode-toogle-label-light": "Claro",
         "mode-toogle-label-dark": "Escuro",
         "mode-toogle-label-system": "Sistema"
+    },
+    "form":{
+        "title" : "Conecte Comigo",
+        "placeholders": {
+            "name": "Nome",
+            "message": "Mensagem",
+            "submit": "Enviar"
+        },
+        "validation": {
+            "name": "O nome é obrigatório !",
+            "email": {
+                "empty": "O email é obrigatório !",
+                "invalid": "Formato de email inválido !"
+            },
+            "message": {
+                "empty": "Este campo é obrigatório !",
+                "min": "Mínimo de 20.",
+                "max": "Máximo de 300."
+            }
+        },
+        "notification": {
+            "done": "Mensagem enviada com sucesso ✔",
+            "error": "Erro durante enviar mensagem."
+        }
     }
 }

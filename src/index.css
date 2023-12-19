@@ -9,4 +9,15 @@
 
 body {
     font-family: "SFMono-Regular";
-} 
+}
+
+@layer components {
+    .btn-send{
+        @apply text-white bg-black hover:bg-white hover:text-black hover:border-black hover:border 
+        dark:text-black dark:bg-white dark:hover:text-white dark:hover:bg-black dark:hover:border-white
+        rounded-md font-bold mt-8 h-6
+    }
+    .form{
+        @apply self-center my-12 border border-white w-96
+    }
+}

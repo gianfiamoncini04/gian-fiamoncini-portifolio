@@ -1,5 +1,5 @@
 {
-    "title" : "Portifolio in development",
+    "title" : "in development",
     "cv" : "Resume",
     "cvfile" : "Resume-Gian-Carlo-Fiamoncini",
     "constants" : {
@@ -8,5 +8,29 @@
         "mode-toogle-label-light": "Light",
         "mode-toogle-label-dark": "Dark",
         "mode-toogle-label-system": "System"
+    },
+    "form":{
+        "title" : "Reach Me",
+        "placeholders": {
+            "name": "Name",
+            "message": "Message",
+            "submit": "Send"
+        },
+        "validation": {
+            "name": "Enter your name !",
+            "email": {
+                "empty": "Enter your email !",
+                "invalid": "Invalid email format !"
+            },
+            "message": {
+                "empty": "This field is required !",
+                "min": "Minimum of 20.",
+                "max": "Maximum of 300."
+            }
+        },
+        "notification": {
+            "done": "Message sent successfully ✔.",
+            "error": "Error during sending message."
+        }
     }
 }

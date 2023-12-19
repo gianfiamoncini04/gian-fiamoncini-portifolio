@@ -6,9 +6,9 @@ export default function Body() {
 	return (
 		<>
 			<span className="text-4xl drop-shadow-[0_0_10px_#00000070] dark:drop-shadow-[0_0_10px_#FFFFFF60] dark:text-white font-bold">
-				Portifolio {t('title')}
+				Portifolio {t("title")}
 			</span>
-            <a href="/form">Form</a>
+			<a href="/form">Form</a>
 		</>
 	);
 }

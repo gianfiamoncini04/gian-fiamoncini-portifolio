@@ -9,8 +9,8 @@ export default function App() {
 			<main className="bg-gray-100 dark:bg-[#0d0d0d] min-h-screen">
 				<Header />
 				<Routes>
-					<Route path="/" element={<Body />}></Route>
-					<Route path="/form" element={<Form />}></Route>
+					<Route path="/" element={<Body />} />
+					<Route path="/form" element={<Form />} />
 				</Routes>
 			</main>
 		</>

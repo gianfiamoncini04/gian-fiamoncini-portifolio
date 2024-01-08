@@ -1,10 +1,10 @@
 import { useTranslation } from 'react-i18next'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { z } from 'zod'
 import emailjs, { EmailJSResponseStatus } from "@emailjs/browser";
 import { useState } from 'react'
 import Alert from '@/components/alert'
-import { z } from 'zod'
 
 export default function Form() {
 	const {t} = useTranslation('common')
@@ -55,17 +55,17 @@ export default function Form() {
 			<form onSubmit={handleSubmit(sendEmail)} className="flex flex-col w-[200px] gap-6 self-center">
 				<div className='flex flex-col font-sans'>
 					{/* <label htmlFor="name" className="text-black dark:text-white text-md">{t('form.placeholders.name')}</label> */}
-					<input type="text" id="name" {...register('name')}  placeholder={t('form.placeholders.name')} /> 
+					<input type="text" id="name" {...register('name')}  placeholder={t('form.placeholders.name')} className="inputs h-8"/> 
 					{errors.name && <small className="text-red-500">{errors.name.message}</small>}
 				</div>
 				<div className='flex flex-col font-sans'>
 					{/* <label htmlFor="email" className="text-black dark:text-white text-md">Email</label> */}
-					<input type="email" id="email" {...register('email')} placeholder="Email" />
+					<input type="email" id="email" {...register('email')} placeholder="Email" className="inputs h-8"/>
 					{errors.email && <small className="text-red-500">{errors.email.message}</small>}
 				</div>
 				<div className='flex flex-col font-sans'>
 					{/* <label htmlFor="message" className="text-black dark:text-white text-md">{t('form.placeholders.message')}</label> */}
-					<textarea id="message" {...register('message')} placeholder={t('form.placeholders.message')} />
+					<textarea id="message" {...register('message')} placeholder={t('form.placeholders.message')} className="inputs h-24" />
 					{errors.message && <small className="text-red-500">{errors.message.message}</small>}
 				</div>
 

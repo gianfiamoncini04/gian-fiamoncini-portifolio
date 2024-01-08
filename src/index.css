@@ -20,4 +20,7 @@ body {
     .form{
         @apply self-center my-12 border border-white w-96
     }
+    .inputs{
+        @apply rounded-sm w-80 text-base
+    }
 }
